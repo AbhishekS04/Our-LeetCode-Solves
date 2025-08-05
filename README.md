@@ -33,50 +33,40 @@ To collaboratively solve and document various LeetCode problems, enhancing our c
 Our-LeetCode-Solves/
 ├── AbhishekSingh/                    # Abhishek's C++ solutions
 │   ├── Easy/                         # Easy difficulty problems
+│   │   └── twoSum.cpp                # Example solution
 │   ├── Medium/                       # Medium difficulty problems
+│   │   └── twoSum.cpp                # Example solution
 │   ├── Hard/                         # Hard difficulty problems
-│   ├── Templates/                    # C++ code templates & utilities
-│   └── README.md                     # Personal progress & notes
+│   │   └── twoSum.cpp                # Example solution
+│   └── Templates/                    # C++ code templates & utilities
 ├── SnehasishMondal/                  # Snehasish's C++ solutions
 │   ├── Easy/
+│   │   └── twoSum.cpp                # Example solution
 │   ├── Medium/
+│   │   └── twoSum.cpp                # Example solution
 │   ├── Hard/
-│   ├── Templates/
-│   └── README.md
+│   │   └── twoSum.cpp                # Example solution
+│   └── Templates/
 ├── TusharKantiDey/                   # Tushar's Java solutions
 │   ├── Easy/
+│   │   └── twoSum.cpp                # Example solution (currently C++)
 │   ├── Medium/
+│   │   └── twoSum.cpp                # Example solution (currently C++)
 │   ├── Hard/
-│   ├── Templates/
-│   └── README.md
-├── Scripts/                          # Automation scripts
-│   ├── update_readme.py              # Auto-update README statistics
-│   ├── compile_cpp.sh                # C++ compilation helper
-│   └── run_java.sh                   # Java execution helper
+│   │   └── twoSum.cpp                # Example solution (currently C++)
+│   └── Templates/
 ├── Docs/                             # Documentation & resources
-│   ├── AlgorithmGuides/              # Algorithm explanations
-│   ├── DataStructureNotes/           # Data structure references
-│   ├── ComplexityAnalysis/           # Time/Space complexity guides
-│   └── InterviewTips/                # Technical interview preparation
+│   └── docs.txt                      # Documentation file
 ├── Tests/                            # Test cases and validation
-│   ├── TestCases/                    # Sample test cases
-│   └── ValidationScripts/            # Solution validation tools
-├── README.md                         # This file (auto-updated)
-└── LICENSE
+├── .gitignore                        # Git ignore file
+├── README.md                         # This file
+└── LICENSE                           # MIT License
 ```
 
-## 🤖 Automatic README Updates
+## 📊 Progress Tracking
 
-This repository features **automatic README updates** that track our progress in real-time! Every time someone uploads a new solution, the statistics and progress tables are automatically updated.
+We track our progress manually. To update the README with latest statistics, run:
 
-### How It Works:
-1. **Detection**: Script scans all contributor folders for new solutions
-2. **Analysis**: Counts problems by difficulty and language
-3. **Update**: Automatically regenerates the progress statistics below
-4. **Commit**: Updates are reflected in this README file
-
-### Manual Update:
-If you want to manually trigger an update:
 ```bash
 python Scripts/update_readme.py
 git add README.md
