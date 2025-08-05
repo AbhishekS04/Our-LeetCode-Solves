@@ -210,7 +210,7 @@ Example:
 ### Setup Instructions
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/[username]/Our-LeetCode-Solves.git
+   git clone https://github.com/AbhishekS04/Our-LeetCode-Solves.git
    cd Our-LeetCode-Solves
    ```
 
