@@ -47,13 +47,21 @@ Our-LeetCode-Solves/
 │   ├── Hard/
 │   │   └── twoSum.cpp                # Example solution
 │   └── Templates/
+├── SayanMukharjee/                  # Sayan's C++ solutions
+│   ├── Easy/
+│   │   └── twoSum.cpp                # Example solution
+│   ├── Medium/
+│   │   └── twoSum.cpp                # Example solution
+│   ├── Hard/
+│   │   └── twoSum.cpp                # Example solution
+│   └── Templates/
 ├── TusharKantiDey/                   # Tushar's Java solutions
 │   ├── Easy/
-│   │   └── twoSum.cpp                # Example solution (currently C++)
+│   │   └── twoSum.cpp                
 │   ├── Medium/
-│   │   └── twoSum.cpp                # Example solution (currently C++)
+│   │   └── twoSum.cpp                
 │   ├── Hard/
-│   │   └── twoSum.cpp                # Example solution (currently C++)
+│   │   └── twoSum.cpp                
 │   └── Templates/
 ├── Docs/                             # Documentation & resources
 │   └── docs.txt                      # Documentation file
@@ -80,6 +88,7 @@ git push
 |-------------|----------|--------|---------|
 | **Abhishek Singh** | C++ | 2025 | 🔥 Active |
 | **Snehasish Mondal** | C++ | 2025 | 🔥 Active |
+| **Sayan Mukharjee** | C++ | 2025 | 🔥 Active |
 | **Tushar Kanti Dey** | Java | 2025 | 🔥 Active |
 
 ## 🎯 Our Approach
@@ -92,7 +101,7 @@ git push
 
 ## 📋 Coding Standards
 
-### For C++ Solutions (Abhishek & Snehasish)
+### For C++ Solutions (Abhishek , Snehasish & Sayan)
 ```cpp
 // File naming: [ProblemNumber]_[ProblemName].cpp
 // Example: 001_TwoSum.cpp
@@ -188,6 +197,7 @@ Example:
 | Abhishek Singh | 1 | 0 | 0 | 1 |
 | Snehasish Mondal | 0 | 0 | 0 | 0 |
 | Tushar Kanti Dey | 0 | 0 | 0 | 0 |
+| Sayan Mukharjee | 0 | 0 | 0 | 0 |
 
 *Last Updated: [Date]*
 
