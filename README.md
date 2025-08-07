@@ -188,13 +188,13 @@ Example:
 ## 🔥 Progress Tracking
 
 ### Current Statistics
-- **Total Problems Solved**: `1`
-- **Easy**: `1` | **Medium**: `0` | **Hard**: `0`
+- **Total Problems Solved**: `2`
+- **Easy**: `2` | **Medium**: `0` | **Hard**: `0`
 
 ### Individual Progress
 | Contributor | Easy | Medium | Hard | Total |
 |-------------|------|--------|------|-------|
-| Abhishek Singh | 1 | 0 | 0 | 1 |
+| Abhishek Singh | 2 | 0 | 0 | 2 |
 | Snehasish Mondal | 0 | 0 | 0 | 0 |
 | Tushar Kanti Dey | 0 | 0 | 0 | 0 |
 | Sayan Mukharjee | 0 | 0 | 0 | 0 |
