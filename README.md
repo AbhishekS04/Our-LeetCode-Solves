@@ -5,7 +5,7 @@
 ![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-orange?style=for-the-badge&logo=leetcode&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Contributors](https://img.shields.io/badge/Contributors-3-brightgreen?style=for-the-badge)
+![Contributors](https://img.shields.io/badge/Contributors-4-brightgreen?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 </div>
@@ -65,7 +65,6 @@ Our-LeetCode-Solves/
 │   └── Templates/
 ├── Docs/                             # Documentation & resources
 │   └── docs.txt                      # Documentation file
-├── Tests/                            # Test cases and validation
 ├── .gitignore                        # Git ignore file
 ├── README.md                         # This file
 └── LICENSE                           # MIT License
@@ -188,18 +187,18 @@ Example:
 ## 🔥 Progress Tracking
 
 ### Current Statistics
-- **Total Problems Solved**: `1`
-- **Easy**: `1` | **Medium**: `0` | **Hard**: `0`
+- **Total Problems Solved**: `2`
+- **Easy**: `2` | **Medium**: `0` | **Hard**: `0`
 
 ### Individual Progress
 | Contributor | Easy | Medium | Hard | Total |
 |-------------|------|--------|------|-------|
-| Abhishek Singh | 1 | 0 | 0 | 1 |
+| Abhishek Singh | 2 | 0 | 0 | 2 |
 | Snehasish Mondal | 0 | 0 | 0 | 0 |
 | Tushar Kanti Dey | 0 | 0 | 0 | 0 |
 | Sayan Mukharjee | 0 | 0 | 0 | 0 |
 
-*Last Updated: [Date]*
+*Last Updated: [08-08-2025]*
 
 ## 🚀 Getting Started
 
