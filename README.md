@@ -196,8 +196,8 @@ Example:
 |-------------|------|--------|------|-------|
 | Abhishek Singh | 3 | 0 | 0 | 3 |
 | Sayan Mukharjee | 3 | 0 | 0 | 3 |
-| Snehasish Mondal | 0 | 0 | 0 | 0 |
 | Tushar Kanti Dey | 1 | 0 | 0 | 1 |
+| Snehasish Mondal | 0 | 0 | 0 | 0 |
 
 
 ## 🚀 Getting Started
