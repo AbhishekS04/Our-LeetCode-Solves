@@ -199,7 +199,6 @@ Example:
 | Tushar Kanti Dey | 0 | 0 | 0 | 0 |
 | Sayan Mukharjee | 3 | 0 | 0 | 3 |
 
-*Last Updated: [Date]*
 
 ## 🚀 Getting Started
 
