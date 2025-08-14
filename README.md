@@ -196,7 +196,7 @@ Example:
 |-------------|------|--------|------|-------|
 | Abhishek Singh | 3 | 0 | 0 | 3 |
 | Sayan Mukharjee | 3 | 0 | 0 | 3 |
-| Tushar Kanti Dey | 1 | 2 | 1 | 4 |
+| Tushar Kanti Dey | 1 | 3 | 1 | 5 |
 | Snehasish Mondal | 0 | 0 | 0 | 0 |
 
 
