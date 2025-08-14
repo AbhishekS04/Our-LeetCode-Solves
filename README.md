@@ -195,8 +195,8 @@ Example:
 | Contributor | Easy | Medium | Hard | Total |
 |-------------|------|--------|------|-------|
 | Abhishek Singh | 3 | 0 | 0 | 3 |
-| Snehasish Mondal | 0 | 0 | 0 | 0 |
 | Sayan Mukharjee | 3 | 0 | 0 | 3 |
+| Snehasish Mondal | 0 | 0 | 0 | 0 |
 | Tushar Kanti Dey | 1 | 0 | 0 | 1 |
 
 
