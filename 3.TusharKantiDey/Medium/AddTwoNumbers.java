@@ -1,10 +1,14 @@
-// Single clean implementation. Compile: javac AddTwoNumbers.java  Run: java AddTwoNumbers
+// Single clean implementation for LeetCode 2: Add Two Numbers.
+// Compile (Windows PowerShell):  javac AddTwoNumbers.java
+// Run default example:            java AddTwoNumbers
+// Run with custom numbers:        java AddTwoNumbers 342 465
+// (Numbers are interpreted normally; internally digits are reversed.)
 public class AddTwoNumbers {
     // Nested static ListNode to avoid name clashes with other problems.
-    static class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
-        ListNode(int val) { this.val = val; }
+    ListNode(int val) { this.val = val; }
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -47,11 +51,25 @@ public class AddTwoNumbers {
     }
 
     public static void main(String[] args) {
-        int[] a = {2,4,3}; // 342
-        int[] b = {5,6,4}; // 465
-        if (args.length >= 2) { a = toDigitsReversed(args[0]); b = toDigitsReversed(args[1]); }
+        if (args.length != 0 && args.length != 2) {
+            System.out.println("Usage: java AddTwoNumbers [num1 num2]");
+            System.out.println("Example: java AddTwoNumbers 342 465");
+            return;
+        }
+
+        int[] a = {2,4,3}; // 342 (stored reversed as 2->4->3)
+        int[] b = {5,6,4}; // 465 (stored reversed as 5->6->4)
+        if (args.length == 2) {
+            try {
+                a = toDigitsReversed(args[0]);
+                b = toDigitsReversed(args[1]);
+            } catch (IllegalArgumentException ex) {
+                System.out.println("Error: " + ex.getMessage());
+                return;
+            }
+        }
         AddTwoNumbers solver = new AddTwoNumbers();
         ListNode res = solver.addTwoNumbers(fromDigits(a), fromDigits(b));
-        printList(res); // expected 7 -> 0 -> 8
+        printList(res); // expected 7 -> 0 -> 8 for default
     }
 }
