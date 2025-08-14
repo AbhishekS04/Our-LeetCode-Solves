@@ -241,7 +241,7 @@ java Solution
 
 ## 🏆 Milestones
 
-- [ ] **First 10 Problems** - Getting warmed up
+- [x] **First 10 Problems** - Getting warmed up
 - [ ] **50 Problems** - Building momentum
 - [ ] **100 Problems** - Strong foundation
 - [ ] **200 Problems** - Advanced problem solver
