@@ -3,3 +3,4 @@
 
 # Ignore Java class files
 *.class
+*.exe
