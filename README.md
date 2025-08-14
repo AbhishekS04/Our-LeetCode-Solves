@@ -188,8 +188,8 @@ Example:
 ## 🔥 Progress Tracking
 
 ### Current Statistics
-- **Total Problems Solved**: `7`
-- **Easy**: `7` | **Medium**: `0` | **Hard**: `0`
+- **Total Problems Solved**: `10`
+- **Easy**: `7` | **Medium**: `2` | **Hard**: `1`
 
 ### Individual Progress
 | Contributor | Easy | Medium | Hard | Total |
