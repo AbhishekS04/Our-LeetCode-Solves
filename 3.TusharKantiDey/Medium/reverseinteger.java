@@ -28,3 +28,40 @@
 
 
 
+// LeetCode-ready solution (class name Solution, method reverse)
+class reverseinteger {
+    public int reverse(int x) {
+        int res = 0;
+        while (x != 0) {
+            int digit = x % 10;
+            x /= 10;
+
+            // Check overflow/underflow before multiplying by 10
+            if (res > 214748364 || (res == 214748364 && digit > 7)) return 0;
+            if (res < -214748364 || (res == -214748364 && digit < -8)) return 0;
+
+            res = res * 10 + digit;
+        }
+        return res;
+    }
+
+    // Local test harness
+    public static void main(String[] args) {
+        reverseinteger solver = new reverseinteger();
+        if (args.length > 0) {
+            for (String a : args) {
+                try {
+                    int v = Integer.parseInt(a);
+                    System.out.println(v + " -> " + solver.reverse(v));
+                } catch (NumberFormatException e) {
+                    System.out.println(a + " -> invalid int");
+                }
+            }
+            return;
+        }
+        int[] samples = {123, -123, 120, 0, 1534236469};
+        for (int v : samples) {
+            System.out.println(v + " -> " + solver.reverse(v));
+        }
+    }
+}
