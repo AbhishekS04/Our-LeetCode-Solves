@@ -83,3 +83,74 @@
 
 //! 0 <= s.length <= 200
 //! s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
+
+// Implementation of myAtoi according to the above specification.
+// File name kept lowercase; class is package-private (no public modifier) so it compiles as-is.
+class stringtointeger {
+	private static final int INT_MAX = 2147483647; //  2^31 - 1
+	private static final int INT_MIN = -2147483648; // -2^31
+
+	public int myAtoi(String s) {
+		if (s == null || s.isEmpty()) return 0;
+		int i = 0, n = s.length();
+
+		// 1. Skip leading whitespace
+		while (i < n && s.charAt(i) == ' ') i++;
+		if (i == n) return 0;
+
+		// 2. Sign
+		int sign = 1;
+		char c = s.charAt(i);
+		if (c == '+' || c == '-') {
+			if (c == '-') sign = -1;
+			i++;
+		}
+
+		// 3. Parse digits
+		long acc = 0; // use long internally just to detect overflow before casting
+		while (i < n) {
+			char ch = s.charAt(i);
+			if (ch < '0' || ch > '9') break;
+			int digit = ch - '0';
+
+			// Check overflow before adding digit (without using 64-bit finalize; we rely on bounds)
+			if (acc > INT_MAX / 10 || (acc == (INT_MAX / 10) && digit > 7)) {
+				return sign == 1 ? INT_MAX : INT_MIN;
+			}
+			acc = acc * 10 + digit;
+			i++;
+		}
+
+		acc *= sign;
+		// Clamp (should already be clamped in overflow check, but keep safety)
+		if (acc > INT_MAX) return INT_MAX;
+		if (acc < INT_MIN) return INT_MIN;
+		return (int) acc;
+	}
+
+	// Simple local test harness
+	public static void main(String[] args) {
+		stringtointeger solver = new stringtointeger();
+		if (args.length > 0) {
+			for (String in : args) {
+				System.out.println("'" + in + "' -> " + solver.myAtoi(in));
+			}
+			return;
+		}
+		String[] samples = {
+				"42",
+				"   -042",
+				"1337c0d3",
+				"0-1",
+				"words and 987",
+				"9223372036854775808", // overflow -> INT_MAX
+				"-91283472332", // underflow -> INT_MIN
+				"+1",
+				"   +0 123",
+				"  0000000000012345678"
+		};
+		for (String s : samples) {
+			System.out.println("'" + s + "' -> " + solver.myAtoi(s));
+		}
+	}
+}
