@@ -31,7 +31,7 @@
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-class Solution {
+class longestValidParentheses {
     /**
      * Calculates the length of the longest valid (well-formed) parentheses substring.
      *
@@ -86,7 +86,7 @@ class Solution {
 
     // Example Usage:
     public static void main(String[] args) {
-        Solution solver = new Solution();
+        longestValidParentheses solver = new longestValidParentheses();
 
         // Example 1
         String s1 = "(()";
