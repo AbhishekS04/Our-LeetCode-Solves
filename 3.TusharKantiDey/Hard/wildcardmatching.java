@@ -83,8 +83,9 @@ class wildcardmatching{
     }
 
     // Example Usage:
+    // ...existing code...
     public static void main(String[] args) {
-        Solution solver = new Solution();
+        wildcardmatching solver = new wildcardmatching();
 
         // Example 1
         String s1 = "aa", p1 = "a";
@@ -107,4 +108,3 @@ class wildcardmatching{
         System.out.println("s = \"" + s5 + "\", p = \"" + p5 + "\" -> " + solver.isMatch(s5, p5)); // false
     }
 }
-
